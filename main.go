@@ -169,7 +169,7 @@ func buildRows(before, after string) ([]diffRow, int, int, int) {
 			}
 
 			pair := max(len(dels), len(ins))
-			for j := 0; j < pair; j++ {
+			for j := range pair {
 				hasDel := j < len(dels)
 				hasIns := j < len(ins)
 				row := diffRow{}
