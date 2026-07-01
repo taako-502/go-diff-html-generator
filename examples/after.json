@@ -1,0 +1,10 @@
+{
+  "status": "approved",
+  "meta": {
+    "priority": "high",
+    "owner": "sales"
+  },
+  "orderId": "A-1001",
+  "amount": 12500,
+  "approvedBy": "manager"
+}

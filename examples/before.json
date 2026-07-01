@@ -1,0 +1,9 @@
+{
+  "orderId": "A-1001",
+  "status": "draft",
+  "amount": 12000,
+  "meta": {
+    "owner": "sales",
+    "priority": "normal"
+  }
+}
