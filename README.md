@@ -13,14 +13,13 @@
 ## 使い方
 
 ```bash
-go mod tidy
-go run . -before examples/before.txt -after examples/after.txt -out diff.html
+make diff
 ```
 
 JSON比較モード:
 
 ```bash
-go run . -before examples/before.json -after examples/after.json -out diff-json.html -mode json
+make diff-json
 ```
 
 生成された `diff.html` をブラウザで開くと、差分を視覚的に確認できます。
@@ -36,8 +35,7 @@ go run . -before examples/before.json -after examples/after.json -out diff-json.
 ## テスト・静的解析
 
 ```bash
-go test ./...
-go vet ./...
+make check
 ```
 
 ## License
