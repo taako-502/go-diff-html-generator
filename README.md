@@ -39,3 +39,7 @@ go run . -before examples/before.json -after examples/after.json -out diff-json.
 go test ./...
 go vet ./...
 ```
+
+## License
+
+MIT
